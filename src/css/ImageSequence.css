@@ -1,0 +1,138 @@
+.image-sequence {
+    position: absolute;
+    bottom: 4.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50rem;
+    height: 40rem;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 1001;
+}
+
+.div-bar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.sequence-message {
+    position: absolute;
+    bottom: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 1001;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right, var(--bluegray-500), var(--bluegray-800));
+    text-align: center;
+    width: 15rem;
+    height: 5rem;
+    padding: 0.8rem;
+}
+
+.inizio-test {
+    position: absolute;
+    bottom: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 1001;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right, var(--bluegray-500), var(--bluegray-800));
+    text-align: center;
+    width: 15rem;
+    height: 5rem;
+    padding: 1.65rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px;
+    position: absolute;
+    bottom: 5rem;
+    width: 3rem;
+    z-index: 999;
+}
+
+.end-message {
+    background-image: linear-gradient(to right, var(--bluegray-500), var(--bluegray-800));
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 50rem;
+    height: 23rem;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-chart {
+    background-image: linear-gradient(to right, var(--bluegray-500), var(--bluegray-800));
+    border-radius: 10px;
+    width: 50vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .image-sequence {
+        width: 20rem;
+        height: 15rem;
+        bottom: 20rem;
+    }
+
+    .sequence-message,
+    .inizio-test {
+        font-size: 1.2rem;
+        width: 13rem;
+        height: 4rem;
+        padding: 0.6rem;
+    }
+}
+
+@media (max-width: 1190px) {
+    .container {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: auto;
+        bottom: 10rem;
+        right: 0rem;
+        left: 0rem;
+        height: auto;
+    }
+
+    .end-message {
+        width: 80vw;
+        height: auto;
+        font-size: 0.8rem;
+        padding: 0.3rem;
+    }
+
+    .div-chart {
+        width: auto;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+}

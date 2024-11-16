@@ -1,0 +1,75 @@
+body {
+    overflow-y: hidden;
+  }
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login{
+    border-radius: 20px;
+    height: 100vh;
+}
+
+.account{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.p-inputtext {
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    text-align: center;
+}
+
+.p-dialog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.placeholder {
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    color: rgb(48, 48, 48);
+}
+
+.changeButton {
+    height: 2rem;
+    background-image: linear-gradient(to right, var(--bluegray-500), var(--bluegray-800));
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.changeButton:hover {
+    transform: scale(1.1);
+}
+
+.submitForm {
+    color:  whitesmoke;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.submitForm:hover {
+    transform: scale(1.1);
+}
+
+.p-float-label {
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+}
+
+.p-card-body {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

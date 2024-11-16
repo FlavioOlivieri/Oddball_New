@@ -1,0 +1,7 @@
+.p-card{
+    border-radius: 20px;
+    align-self: center;
+    margin-bottom: 4rem;
+    background-color: rgb(203, 211, 217);
+    overflow: hidden;
+}

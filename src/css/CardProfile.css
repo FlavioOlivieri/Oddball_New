@@ -1,0 +1,52 @@
+.button-login {
+    background-image: linear-gradient(to right, var(--bluegray-500), var(--bluegray-800));
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    width: 40%;
+}
+
+.button-login:hover {
+    transform: scale(1.1);
+}
+
+.p-card-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-button-profile {
+    display: block;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.button-logout {
+    background-color: red;
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    width: 20%;
+}
+
+.button-logout:hover {
+    transform: scale(1.1);
+}
+
+.p-button-label {
+    font-weight: bold;
+}
